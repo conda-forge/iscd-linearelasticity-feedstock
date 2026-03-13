@@ -21,10 +21,10 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
-  host:
     - cmake
     - make  # [not win]
     - jom  # [win]
+  host:
     - iscd-commons
   run:
     - iscd-commons
