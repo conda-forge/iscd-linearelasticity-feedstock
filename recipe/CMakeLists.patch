@@ -1,7 +1,8 @@
 --- CMakeLists.txt	2021-05-06 09:50:46.000000000 +0200
 +++ CMakeLists_conda.txt	2023-04-08 20:03:47.369631387 +0200
 @@ -1,31 +1,27 @@
- cmake_minimum_required(VERSION 2.8)
+-cmake_minimum_required(VERSION 2.8)
++cmake_minimum_required(VERSION 3.5)
  set(CMAKE_BUILD_TYPE  "Release")
  SET(CMAKE_CXX_FLAGS   "-w -g -O3")
 -set(CMAKE_MACOSX_RPATH 1)
