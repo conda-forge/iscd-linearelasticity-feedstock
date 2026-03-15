@@ -20,10 +20,11 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-  host:
+    - {{ stdlib("c") }}
     - cmake
     - make  # [not win]
     - jom  # [win]
+  host:
     - iscd-commons
   run:
     - iscd-commons
